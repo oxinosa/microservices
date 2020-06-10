@@ -18,5 +18,28 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "api.auth": {
+      "tags": []
+    },
+    "fe.dashboard": {
+      "tags": []
+    },
+    "fe.dashboard-e2e": {
+      "tags": [],
+      "implicitDependencies": ["fe.dashboard"]
+    },
+    "config": {
+      "tags": []
+    },
+    "auth": {
+      "tags": []
+    },
+    "api.service.cms": {
+      "tags": []
+    },
+    "be.util.auth": {
+      "tags": []
+    }
+  }
 }

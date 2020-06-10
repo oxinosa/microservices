@@ -15,7 +15,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@krab/config": ["libs/config/src/index.ts"],
+      "@krab/auth": ["libs/auth/src/index.ts"],
+      "@krab/be.util.auth": ["libs/be.util.auth/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
